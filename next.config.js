@@ -3,6 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  images: {
+    domains: [process.env.IMAGE_DOMAIN],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
